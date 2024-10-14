@@ -62,6 +62,16 @@ npm run start:dev
 
 </pre>
 
+<li>Setting up .env file <strong>.env</strong>:
+    <pre>
+      <code>
+      MONGO_URI=mongodb://localhost:27017/Ex2
+      ALL_MAKES= All makes URL
+      VEHICLE_TYPES= https:xxxx/GetVehicleTypesForMakeId
+      </code>
+    </pre>
+</li>
+
 <h2>GraphQL Playground</h2>
 <p>
   Once the server is running, you can access the GraphQL Playground at:
