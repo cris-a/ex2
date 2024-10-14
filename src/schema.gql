@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type VehicleType {
+  typeId: [String!]!
+  typeName: [String!]!
+}
+
+type Vehicles {
+  _id: ID!
+  makeId: String!
+  makeName: String!
+  VehicleTypes: [VehicleType!]!
+}
+
+type Query {
+  getData: [Vehicles!]!
+}
+
+type Mutation {
+  createVehicleInfo: [Vehicles!]!
+}
